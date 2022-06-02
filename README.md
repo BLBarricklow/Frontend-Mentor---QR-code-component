@@ -13,9 +13,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -39,39 +36,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-- Remember to define the body's height in an absolute value, like viewheight, to allow the responsive units and flexbox to work as expected. In particular, the body's height only grew to fit the content inside before using 100vh. That prevented justify-content from centering the card vertically (I used a column layout to prevent the credits link from moving to the side of the qr card, that's why the main axis was vertical).
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+This was mainly a refresher on HTML and CSS, but I did hit a couple snags. I need to remember to define the body's height in an absolute value, like viewheight, to allow the responsive units and flexbox to work as expected. In particular, the body's height only grew to fit the content inside before using 100vh. That prevented justify-content from centering the card vertically (I used a column layout to prevent the credits link from moving to the side of the qr card, that's why the main axis was vertical).
 
 ### Continued development
 
 - Get more comfortable with flexbox
 - Get more understanding and experience with CSS clamp
 - Explore more options for confirming accuracy to the design document
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
