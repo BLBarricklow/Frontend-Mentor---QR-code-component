@@ -1,4 +1,5 @@
 body {
+    height: 100vh;
     background-color: hsl(212, 45%, 89%);
     font-family: "Outfit", sans-serif;
     display: flex;
@@ -11,12 +12,7 @@ body {
 
 .card-body {
     box-sizing: border-box;
-    /* margin: auto; */
-    /* width: 80vw;
-    max-width: 400px;
-    height: 90vh;
-    max-height: 700px; */
-    width: clamp(300px, 90%, 350px);
+    width: clamp(250px, 95%, 325px);
     padding: 15px;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
@@ -25,23 +21,25 @@ body {
 
 .qr-code {
     max-width: 99%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 
 .text-box {
-    width: 80%; 
+    width: 90%; 
     margin: auto;
 }
 
 .title {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 700;
-    margin-top: 25px;
+    margin-top: 20px;
+    color: hsl(218, 44%, 22%);
 }
 
 .blerb {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 25px;
+    color: hsl(220, 15%, 55%);
 }
 
